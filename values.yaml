@@ -370,7 +370,7 @@ alertmanager:
   sidecar:
     image:
       repository: quay.io/kiwigrid/k8s-sidecar
-      tag: 1.10.7
+      tag: 1.14.0
       sha: ""
     imagePullPolicy: IfNotPresent
     resources: {}
@@ -771,7 +771,7 @@ ruler:
   sidecar:
     image:
       repository: quay.io/kiwigrid/k8s-sidecar
-      tag: 1.10.7
+      tag: 1.14.0
       sha: ""
     imagePullPolicy: IfNotPresent
     resources: {}
